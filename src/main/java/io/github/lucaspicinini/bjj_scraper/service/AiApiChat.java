@@ -15,4 +15,14 @@ public class AiApiChat {
         String response = model.generate("Traduza para pt-br e me retorne só a tradução: " + text);
         return response;
     }
+
+    public static String getGenericChat(String text) {
+        ChatLanguageModel model = MistralAiChatModel.builder()
+                .modelName(MistralAiChatModelName.MISTRAL_SMALL_LATEST)
+                .apiKey(AiApiConfigs.MISTRAL_AI_KEY)
+                .build();
+
+        String response = model.generate(text);
+        return response;
+    }
 }
