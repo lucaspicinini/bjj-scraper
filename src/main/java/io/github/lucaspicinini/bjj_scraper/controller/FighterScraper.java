@@ -96,7 +96,7 @@ public class FighterScraper {
                     .replaceAll("n/a", "")
                     .trim() : "";
 
-            // team element
+            // team scraping
             Element teamElement = HTML.selectFirst("p:contains(ssociation) strong");
             if (teamElement != null) {
 
