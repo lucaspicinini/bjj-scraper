@@ -4,6 +4,7 @@ import io.github.lucaspicinini.bjj_scraper.model.dto.FighterDTO;
 import io.github.lucaspicinini.bjj_scraper.model.entity.Fighter;
 import io.github.lucaspicinini.bjj_scraper.model.entity.Team;
 import io.github.lucaspicinini.bjj_scraper.repository.Repository;
+import io.github.lucaspicinini.bjj_scraper.service.AiApiChat;
 import io.github.lucaspicinini.bjj_scraper.service.FighterRequest;
 import io.github.lucaspicinini.bjj_scraper.service.HomeRequest;
 import io.github.lucaspicinini.bjj_scraper.utils.AiApiConfigs;
@@ -40,6 +41,9 @@ public class AllFightersRequest {
 
                 if (AiApiConfigs.USE_AI_API) {
                     FighterTranslator.translateWithAi(fighter);
+
+                    // String text = "texto que você quer passar para a AI";
+                    // String response = AiApiChat.getGenericChat(text);
                 }
 
                 repository.save(team);
