@@ -1,18 +1,21 @@
 package io.github.lucaspicinini.bjj_scraper.controller;
 
+import io.github.lucaspicinini.bjj_scraper.model.dto.FighterDTO;
 import io.github.lucaspicinini.bjj_scraper.repository.Repository;
 import io.github.lucaspicinini.bjj_scraper.service.FighterRequest;
 import io.github.lucaspicinini.bjj_scraper.service.HomeRequest;
 
+import java.util.List;
+
 public class AllFightersRequest {
 
     public static void getAllFighters(Repository repository) {
-        var homeResponseBody = HomeRequest.getResponseBody();
-        var fightersHrefs = FightersListToScrap.getList(homeResponseBody);
+        String homeResponseBody = HomeRequest.getResponseBody();
+        List<String> fightersHrefs = FightersListToScrap.getList(homeResponseBody);
 
         for (var fighterHref : fightersHrefs) {
-            var fighterResponseBody = FighterRequest.getResponseBody(fighterHref);
-            var fighterDTO = FighterScraper.scrap(fighterResponseBody, fighterHref);
+            String fighterResponseBody = FighterRequest.getResponseBody(fighterHref);
+            FighterDTO fighterDTO = FighterScraper.scrap(fighterResponseBody, fighterHref);
         }
     }
 }
