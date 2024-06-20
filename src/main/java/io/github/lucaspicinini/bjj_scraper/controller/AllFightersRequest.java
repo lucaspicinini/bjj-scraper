@@ -12,7 +12,7 @@ public class AllFightersRequest {
 
         for (var fighterHref : fightersHrefs) {
             var fighterResponseBody = FighterRequest.getResponseBody(fighterHref);
-            var fighterDTO = FighterScrapper.scrap(fighterResponseBody, fighterHref);
+            var fighterDTO = FighterScraper.scrap(fighterResponseBody, fighterHref);
         }
     }
 }
