@@ -8,7 +8,7 @@
 
 #### Clique na imagem abaixo para assistir a demo:
 
-[![Assista a demo](readme-assets/img.png)](https://youtu.be/UQqTsonjP0c)
+[![Assista a demo](.readme-assets/img.png)](https://youtu.be/UQqTsonjP0c)
 
 
 ✅ Requisitos:
@@ -29,7 +29,7 @@ Abra o terminal e clone o scraper para sua máquina:
 
 Caso não tenha o git instalado, você pode baixar e descompactar o scraper clicando em **Download ZIP** na imagem abaixo:
 
-[![Zip download Link](readme-assets/img_01.png)](https://github.com/lucaspicinini/bjj-scraper/archive/refs/heads/main.zip)
+[![Zip download Link](.readme-assets/img_01.png)](https://github.com/lucaspicinini/bjj-scraper/archive/refs/heads/main.zip)
 
 Configure a url JDBC, o usuário e a senha do seu banco de dados no arquivo:
 
