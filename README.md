@@ -8,7 +8,7 @@
 
 #### Clique na imagem abaixo para assistir a demo:
 
-[![Assista a demo](readme-assets/img.png)](readme-assets/scraping-example.webm)
+[![Assista a demo](readme-assets/img.png)](https://youtu.be/UQqTsonjP0c)
 
 
 ✅ Requisitos:
