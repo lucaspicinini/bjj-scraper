@@ -1,7 +1,7 @@
 <h1 align="center">Tha BJJ Scraper 🥋</h1>
 
 <h4 align="center">
-<em>Dados de atletas de Jiu-Jistu de todo planeta</em>
+<em>Dados de atletas de Jiu-Jitsu de todo planeta</em>
 <br>
 <em>ao alcance do seu banco de dados. 🎣 🗃️</em>
 </h4>
