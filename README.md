@@ -6,6 +6,8 @@
 <em>ao alcance do seu banco de dados. 🎣 🗃️</em>
 </h4>
 
+### [English README 🇺🇸](README.en.md)
+
 #### Clique na imagem abaixo para assistir a demo:
 
 [![Assista a demo](.readme-assets/img.png)](https://youtu.be/UQqTsonjP0c)
